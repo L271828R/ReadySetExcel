@@ -15,12 +15,6 @@ public class ReadySetExcelPage {
 
     public void go() {
         pagedriver.get(url);
-        try {
-            Thread.sleep(20000);
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
     };
 
     public String getTitle(){
