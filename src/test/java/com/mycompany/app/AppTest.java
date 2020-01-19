@@ -20,10 +20,12 @@ public class AppTest {
 
     @BeforeTest
     public void setBaseUrl() {
-        System.setProperty("webdriver.chrome.driver", "/Users/luisrueda/Dropbox/Ready_Set_Excel/ready-set-excel-test/target/chromedriver");
+        System.setProperty("webdriver.chrome.driver", ".//chromedriver");
         driver = new ChromeDriver();
         page = new ReadySetExcelPage(driver);
         page.go();
+        System.out.println("Working Directory = " +
+              System.getProperty("user.dir"));
     }
 
 
