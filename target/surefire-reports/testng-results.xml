@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="49835" started-at="2020-01-19T20:29:20Z" finished-at="2020-01-19T20:30:10Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="49835" started-at="2020-01-19T20:29:20Z" finished-at="2020-01-19T20:30:10Z">
+      <class name="com.mycompany.app.AppTest">
+        <test-method status="PASS" signature="setBaseUrl()[pri:0, instance:com.mycompany.app.AppTest@380fb434]" name="setBaseUrl" is-config="true" duration-ms="48623" started-at="2020-01-19T15:29:20Z" finished-at="2020-01-19T15:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUrl -->
+        <test-method status="PASS" signature="verifyGetInTouchMain()[pri:0, instance:com.mycompany.app.AppTest@380fb434]" name="verifyGetInTouchMain" duration-ms="695" started-at="2020-01-19T15:30:09Z" finished-at="2020-01-19T15:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetInTouchMain -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.mycompany.app.AppTest@380fb434]" name="verifyHomePageTitle" duration-ms="76" started-at="2020-01-19T15:30:09Z" finished-at="2020-01-19T15:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.mycompany.app.AppTest@380fb434]" name="endSession" is-config="true" duration-ms="399" started-at="2020-01-19T15:30:09Z" finished-at="2020-01-19T15:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- com.mycompany.app.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
